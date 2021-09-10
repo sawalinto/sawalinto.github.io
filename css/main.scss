@@ -1,0 +1,436 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #00021b;
+    color: white;
+}
+
+#navbar {
+    transition: top 0.3s;
+}
+
+nav {
+    background-color: #00021b;
+    fill-opacity: 0.5;
+
+    .navbar-brand {
+        font-size: 30px;
+        color: white !important;
+        font-weight: 700;
+    }
+
+    ul {
+        margin-left: 200px;
+
+        li {
+            a {
+                margin-left: 30px;
+                font-weight: 500;
+                color: white !important;
+            }
+        }
+    }
+}
+
+header {
+    margin-top: -50px;
+}
+
+.nama {
+    .row {
+        .col {
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    margin-top: -500px;
+    color: aliceblue;
+
+    h1 {
+        font-size: 80px;
+        font-weight: 800;
+    }
+}
+
+.row {
+    .sosmed {
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        // margin-left: 10px;
+    }
+
+    .sosmed:hover {
+        color: rgb(109, 109, 255);
+    }
+}
+
+.aboutme {
+    color: white;
+    margin-top: 200px;
+}
+
+.education {
+    margin-top: 150px;
+
+    h1 {
+        text-align: center;
+    }
+
+    .card {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 218px;
+        height: 267px;
+        border-radius: 25px;
+        background: linear-gradient(#00043c 0%, #54577c 100%);
+
+        .fa-user-graduate {
+            margin-top: 30px;
+            font-size: 100px;
+            // text-align: center;
+            // margin: 0 auto;
+        }
+
+        h4 {
+            margin-top: 15px;
+            margin-bottom: -5px;
+        }
+    }
+}
+
+.experience {
+    margin-top: 200px;
+
+    .card {
+        margin-bottom: 20px;
+        padding: 30px;
+        width: 100%;
+        height: 253px;
+        border-radius: 30px;
+        background: linear-gradient(#00043c 0%, #00021b 100%);
+        border: 1px solid #fff;
+
+        h3 {
+            margin-top: 30px;
+        }
+
+        p {
+            margin-top: 15px;
+        }
+    }
+}
+
+.skill {
+    margin-top: 200px;
+    text-align: center;
+
+    .card {
+        margin-right: 10px;
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 186px;
+        height: 228px;
+        border-radius: 35px;
+        background: linear-gradient(#00043c 0%, #54577c 100%);
+
+        i {
+            font-size: 120px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+footer {
+    .row {
+        h1 {
+            font-weight: bold;
+        }
+    }
+
+    background-color: #00023e;
+
+    // margin-top: 150px;
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.svg {
+    margin-top: -200px;
+}
+
+@media (max-width: 1024px) {
+    .nama {
+        .row {
+            .col {
+                i {
+                    // margin-top: -20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        margin-top: -400px;
+        margin-bottom: -50px !important;
+        color: aliceblue;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 800;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .svg {
+        display: none;
+    }
+
+    .nama {
+        .row {
+            .col {
+                i {
+                    // margin-top: -20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        margin-top: 80px;
+        margin-bottom: -200px;
+        color: aliceblue;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 800;
+        }
+    }
+
+    nav {
+        ul {
+            margin-left: 0px !important;
+        }
+    }
+
+    header {
+        display: none;
+    }
+
+    .aboutme {
+        margin-top: 38px;
+    }
+
+    .col {
+        text-align: center;
+        // margin-top: 30px;
+        display: block;
+
+        .me {
+            width: 300px;
+            // margin-top: -80px;
+        }
+    }
+
+
+}
+
+.port {
+    .container {
+        .img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+    }
+}
+
+// =================================================
+//////////////////////////////////////////////////////
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {
+    opacity: 0.7;
+}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg2:hover {
+    opacity: 0.7;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+}
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.1)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+// =====================STYLE IMG
+
+.imgWeb {
+    position: relative;
+    width: 20%;
+    // margin: 0 auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    display: inline-block;
+
+    
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    // width: 200px;
+    // height: 200px;
+    position: relative;
+    z-index: 99;
+    bottom: 120px;
+    left: 125px;
+    // bottom: 30;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .imgWeb:hover .image {
+    opacity: 0.3;
+  }
+  
+  .imgWeb:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    margin: 0 auto;
+    // margin-left: 50px;
+  }
