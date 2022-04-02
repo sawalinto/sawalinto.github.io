@@ -10,7 +10,7 @@ body {
 }
 .navbar-toggler
 {
-  background-color: white !important;
+  background-color: white;
 }
 nav {
   background-color: #00021b;
