@@ -8,7 +8,10 @@ body {
   -webkit-transition: top 0.3s;
   transition: top 0.3s;
 }
-
+.navbar-toggler
+{
+  background-color: white !important;
+}
 nav {
   background-color: #00021b;
   fill-opacity: 0.5;
